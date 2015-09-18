@@ -1,0 +1,8 @@
+hepdata_validator
+coverage
+coveralls
+pyyaml
+rootpy
+numpy
+matplotlib
+six>=1.7
