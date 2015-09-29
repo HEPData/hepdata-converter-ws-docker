@@ -28,3 +28,6 @@ variables in travis build otherwise the image will be created but not uploaded.
 
 **Warning:** any build will trigger upload of the new image (regardless of the branch,
   so be cautious about it, especially if you plan to start breaking things)
+
+
+**todo:** document how to run this container.  
