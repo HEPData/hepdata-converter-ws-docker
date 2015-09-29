@@ -30,4 +30,9 @@ variables in travis build otherwise the image will be created but not uploaded.
   so be cautious about it, especially if you plan to start breaking things)
 
 
-**todo:** document how to run this container.  
+**Run me** 
+```
+docker pull hepdata/hepdata-converter-ws
+docker run -i -t hepdata/hepdata-converter-ws /bin/bash -c "hepdata-converter-ws"
+
+```
