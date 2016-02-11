@@ -1,9 +1,13 @@
+sudo: required
+
+services:
+- docker
+
 language: python
 
 python:
 - '2.7'
 
-sudo: required
 
 env:
   global:
@@ -14,9 +18,6 @@ env:
   - secure: CkNb1+/zw7nGM2G4LNUjLAc3T42mJYw9JWQaHawG9cRS2CV/qY9ReQIrZh6SINHqaE2IuFSazDo6SaMmo8DXKsViywrI32DQyJN9h5StXApq4kN7UdsxK1HV+LNPL77yd5bCqzIlCm6DuTcoXVn3+VBd55SAmXynIO25PbO+qC64wQ+UcQLVeoIB5xRlN+K8cQHyXhKVVp5qjH2R7QfHfsQ5ZYySB3Bln/ivuxw/k/F4NqVxRp/E8T8Y/Nwf+2E1AP/2VPs+eioMscuVB4zCbWMMw0GfoluC7OgBPL4eKp1NET0KWbBfv6DiwUiMVCH/j9TACLM5Xze8TDTuUvajClkiKfgiGtdiO6cjXWq48CU18wpZbK8g6vHCj2hGNyvt/ASFEgi5bjIGe0oho/sJW98EfTzyFZfOBVExDYsF2JF49pzrLe6H1pH3tTH2A+zlTO/tYJPWfapoR2896XD+I6qAexnXYbj/ziCn3xHEM+F1JI/BlcC6/T7/oLRwBs56gQSW1DOlBoJr3lEOz+DWYgLpqGCTLYI3m+fm6jTMCKrlEZjNQa8QPmzUozpq8naXoufFK8HqvNXdwLyLXAKD5SVZx/osH7h87d70RIO+Gk0kF5VYnimfr+6dmCrLKRTPunxtv0rk+ujpGJemdAS7UYvKtCYx71MAJbjFQltN+Mg=
 
 cache:
-- docker
-
-services:
 - docker
 
 install:
