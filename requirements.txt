@@ -1,4 +1,4 @@
-hepdata-converter==0.1.18
+hepdata-converter==0.1.20
 hepdata-converter-ws
 flask
 flask-testing
