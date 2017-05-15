@@ -33,6 +33,6 @@ variables in travis build otherwise the image will be created but not uploaded.
 **Run me** 
 ```
 docker pull hepdata/hepdata-converter-ws
-docker run -i -t hepdata/hepdata-converter-ws /bin/bash -c "hepdata-converter-ws"
+docker run --restart=always -d --name=hepdata_converter -p 0.0.0.0:5500:5000 hepdata/hepdata-converter-ws hepdata-converter-ws
 
 ```
