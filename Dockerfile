@@ -1,4 +1,4 @@
-FROM hepdata/hepdata-converter
+FROM hepdata/hepdata-converter:0.1.35
 
 COPY requirements.txt /tmp/requirements.txt
 
