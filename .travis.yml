@@ -1,13 +1,10 @@
-sudo: required
-
 services:
 - docker
 
 language: python
 
 python:
-- '2.7'
-
+- '3.6'
 
 env:
   global:
@@ -25,6 +22,12 @@ install:
 
 script:
 - docker build -t $IMAGE_NAME .
-- docker tag $IMAGE_NAME $IMAGE_NAME_REMOTE:latest
-- docker login --password=$DOCKER_PASSWORD --username=$DOCKER_USERNAME
-- docker push $IMAGE_NAME_REMOTE:latest
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: bash docker_push
+  on:
+    repo: HEPData/hepdata-converter-ws-docker
+    all_branches: true
+    condition: $TRAVIS_BRANCH == "master" || -n $TRAVIS_TAG

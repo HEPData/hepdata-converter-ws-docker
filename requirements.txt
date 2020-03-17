@@ -1,4 +1,0 @@
-hepdata-converter
-hepdata-converter-ws
-flask
-flask-testing
