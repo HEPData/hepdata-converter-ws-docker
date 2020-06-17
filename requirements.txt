@@ -1,5 +1,0 @@
-hepdata-converter
-hepdata-converter-ws
-distlib
-flask
-flask-testing
