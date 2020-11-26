@@ -1,5 +1,5 @@
 
-![Build Status](https://travis-ci.org/HEPData/hepdata-converter-ws-docker.svg?branch=master)
+[![GitHub Actions Status](https://github.com/HEPData/hepdata-converter-ws-docker/workflows/Continuous%20Integration/badge.svg?branch=master)](https://github.com/HEPData/hepdata-converter-ws-docker/actions?query=branch%3Amaster)
 
 # hepdata-converter-ws-docker
 
