@@ -1,6 +1,6 @@
-FROM hepdata/hepdata-converter:0.2.0
+FROM hepdata/hepdata-converter:latest
 
-RUN pip3 install --upgrade pip
-RUN pip3 install -I hepdata-converter-ws==0.2.0
+RUN pip install --upgrade pip
+RUN pip install hepdata-converter-ws
 
 CMD hepdata-converter-ws
